@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <link rel="stylesheet" type="text/css" href="snake.css">
+    <script src="../js/jquery-2.1.1.js"></script>
+    <script src="board.js"></script>
+    <script src="snake.js"></script>
+  </head>
+  <body>
+    <h1>Leah and Noah's Snazzy Snake</h1>
+    <figure class="board"></figure>
+    <script>
+      // Write your code here.
+      $(function () {
+        new Board ($(".board"))
+      });
+      //
+      // $(function () {
+      //   new TTT.View(new TTT.Game(), $(".ttt-board"))
+      // });
+    </script>
+  </body>
+</html>
